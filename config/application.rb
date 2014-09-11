@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module Autogiftr3
   class Application < Rails::Application
     config.generators do |g|
-        g.stylesheeets false
+        g.stylesheets false
         g.javascripts false
   end
     # Settings in config/environments/* take precedence over those specified here.
